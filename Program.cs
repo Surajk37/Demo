@@ -1,5 +1,5 @@
 ﻿
-using D;
+
 using Demo;
 
 namespace Demo
@@ -8,8 +8,9 @@ namespace Demo
     {
         public static void Main(string[] args)
         {
-            //LeapYear.Chechk_LeapYr();
-            FlipCoin.CalculatePercenteage();
+            //FlipCoin.CalculatePercenteage();
+            LeapYr.Check_LeapYr();
+
         }
     }
 }
